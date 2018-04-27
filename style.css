@@ -1,0 +1,227 @@
+* {
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    background-color: #fff;
+    color: #00e;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*PANELS*/
+
+
+.user-panel {
+    padding-top: 20px; 
+    border-right: 1px solid #e6e6ff;
+    background-color: #fff;
+    height: 100vh;
+    width: 25%;
+    font-size: 90%;
+    float:left;
+}
+
+.todo-panel {
+    background-color: #f4f4f4; 
+    height: 100vh;
+    width: 75%;
+    float: right;
+/*    position: relative;*/
+}
+
+
+/*-------BUTTONS----------------*/
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    display: block;
+    margin: 1px 0;
+    color: #00e;
+    padding: 15px 0px 15px 25px;
+    transition: background-color .3s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #00e;
+    color: #fff;
+    font-weight: 400;
+}
+
+/*-------ICONS----------------*/
+
+.icon-user,
+.icon-user-plus,
+.check-blank {
+    margin-right: 12px;
+    text-align: center;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.ion-edit,
+.ion-close-round {
+    float: right;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+/*TO-DO PANEL*/
+
+header {
+    background-image: linear-gradient(rgba(5, 10, 175, 0.80), rgba(5, 10, 175, 0.10)), url(img/landscape_clipartist.net.svg);
+    background-size: 1200px;
+    height: 25vh;
+    background-attachment: fixed;
+    /*    position: absolute;*/
+    width: 100%;
+    padding: 15px 10px;
+}
+
+h1 {
+    padding-left: 6%;
+    margin-bottom: 8px;
+    color: #fff;
+    font-size: 180%;
+    font-weight: 300;
+}
+
+#date-para {
+    padding-left: 6%;
+    color: #fff;
+}
+
+.task-list {
+    padding: 5% 8%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #d0d0d0;
+    width: 92%;
+    font-size: 95%;
+    color: #5c5c5c;
+}
+
+.add-task-para,
+.ion-android-done {
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.add-task-para {
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.ion-android-done {
+    font-size: 130%;
+    float: right;
+}
+
+/*-----------------INPUT----------------*/
+
+
+#editField {
+    border: none; 
+    background-color: #f4f4f4;
+    color : blue;
+    width: 80%;
+    font-size: 100%;
+    font-weight: 300;
+    margin-top: -10px;
+/*    height: 40px;*/
+}
+
+#new-todo{
+    border: none;
+    border-bottom: 1px solid #7f6eff ; 
+    background-color: #f4f4f4;
+    color : #0000ff;
+    width: 75%;
+    height: 40px;   
+    font-size: 95%;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+/*----------------TOGGLE ------------*/
+
+.toggle-all-hidden {
+    visibility: hidden;
+    font-size: 85%;
+    margin-bottom: 12px;
+    height: 30px; 
+    width: 92%;
+    border-bottom: 0.5px  solid;
+    
+}
+
+.toggle-all {
+    font-size: 85%;
+    margin-bottom: 12px;
+    height: 30px; 
+    width: 92%;
+    border-bottom: 0.5px  solid #dbdbdb;
+    visibility: visible;
+    cursor: pointer;
+}
+
+.toggleButton {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.toggle-all-check {
+    font-size : 85%;
+    margin-right: 6px
+}
+
+#editField {
+    border: none; 
+    background-color: #f4f4f4;
+    color : blue;
+    width: 80%;
+    font-size: 100%;
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+*:focus {outline:none}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
